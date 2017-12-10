@@ -1,0 +1,529 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+	color: white;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*------------------------------Size (0px to 399px)--------------------------------------*/
+
+.unpadded-container
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+}
+
+.header
+{
+	width: 100%;
+	height: 20vw;
+	background-color: #A07441;
+}
+
+.logo
+{
+	width: 80%;
+	float: left;
+	padding: 10px 10px 0px 10px;
+}
+
+.logo > img
+{
+	width: 100%;
+	height: auto;
+}
+
+.header-nav
+{
+	width: 20%;
+	float: right;
+	position: relative;
+	top: 25%;
+	text-align: right;
+	right: 5%;
+}
+
+.large-nav
+{
+	display: none;
+}
+
+.small-nav > ul
+{
+	list-style-type: none;
+	position: absolute;
+	display: none;
+	z-index: 3;
+	background-color: #A07441;
+	top: 14vw;
+	left: -75vw;
+	width: 100vw;
+	text-align: left;
+}
+
+.small-nav > ul > li
+{
+	padding: 3px 6px 3px 6px;
+}
+
+.small-nav > a
+{
+	display: block;
+}
+
+.small-nav > a > img
+{
+	width: 40%;
+	height: auto;
+}
+
+.hero
+{
+	z-index: 1;
+	width: 100%;
+}
+
+.hero-body
+{
+	position: absolute;
+}
+
+.slide > img
+{
+	width: 100%;
+	height: auto;
+}
+
+.slide 
+{
+    display: none;
+}
+
+.hero-body
+{
+	position: absolute;
+	width: 100%;
+	top: 35vw;
+	text-align: center;
+}
+
+.hero-body > h3
+{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hero-body > a:hover .hero-button 
+{
+	background-color: white;
+}
+
+.hero-body > a:hover .hero-button > h3
+{
+	color: black;
+}
+
+
+.hero-button
+{
+	border: 1px solid white;
+	width: 30%;
+	max-width: 200px;
+	min-width: 100px;
+	margin: 15px auto;
+	padding: 3px;
+}
+
+.hero-button > h3
+{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.footer
+{
+	background-color: #A07441;
+}
+
+.footer > h3
+{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+
+/*------------------------------Size (400px to 599px)--------------------------------------*/
+
+@media screen and (min-width: 400px)
+{
+
+	.header
+	{
+		height: 18vw;
+	}
+
+	.logo
+	{
+		width: 75%;
+	}
+
+	.header-nav
+	{
+		width: 18%;
+	}
+
+	.small-nav > ul
+	{
+		top: 13vw;
+		left: -77vw;
+		width: 100vw;
+		text-align: left;
+	}
+
+	.small-nav > ul > li > a
+	{
+		font-size: 18px;
+	}
+
+	.hero-body
+	{
+		top: 35vw;
+	}
+
+	.hero-body > h3
+	{
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.hero-button
+	{
+		width: 35%;
+		max-width: 200px;
+		min-width: 150px;
+		margin: 20px auto;
+	
+	}
+
+	.hero-button > h3
+	{
+		font-size: 25px;
+	}
+	
+}
+
+
+/*------------------------------Size (600px to 699px)--------------------------------------*/
+
+@media screen and (min-width: 600px)
+{
+
+	.header
+	{
+		height: 15vw;
+	}
+
+	.logo
+	{
+		width: 70%;
+	}
+
+
+	.header-nav
+	{
+		top: 30%;
+		width: 16%;
+	}
+
+	.small-nav > ul
+	{
+		top: 10vw;
+		left: -79vw;
+	}
+
+
+	.small-nav > a > img
+	{
+		width: 35%;
+		height: auto;
+	}
+
+	.hero-body
+	{
+		position: absolute;
+		width: 100%;
+		top: 35vw;
+		text-align: center;
+	}
+
+	.hero-body > h3
+	{
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.hero-body > a:hover .hero-button 
+	{
+		background-color: white;
+	}
+
+	.hero-body > a:hover .hero-button > h3
+	{
+		color: black;
+	}
+
+	.small-nav > ul > li > a
+	{
+		font-size: 20px;
+	}
+
+
+	.hero-button > h3
+	{
+		font-size: 25px;
+	}
+}
+
+/*------------------------------Size (700px to 999px)--------------------------------------*/
+
+@media screen and (min-width: 700px)
+{
+	.header
+	{
+		height: 11vw;
+	}
+
+	.logo
+	{
+		width: 53%;
+	}
+
+	.header-nav
+	{
+		width: 13%;
+		top: 29%;
+	}
+
+	.small-nav > ul
+	{
+		top: 7.8vw;
+		left: -82vw;
+	}
+
+	.hero-body
+	{
+		position: absolute;
+		width: 100%;
+		top: 35vw;
+		text-align: center;
+	}
+
+	.hero-body > h3
+	{
+		font-size: 35px;
+		font-weight: 500;
+	}
+
+	.hero-button
+	{
+		max-width: 250px;
+		min-width: 150px;
+	}
+
+	.hero-button > h3
+	{
+		font-size: 30px;
+	}
+
+	.small-nav > ul > li > a
+	{
+		font-size: 24px;
+	}
+
+	.footer
+	{
+		background-color: #A07441;
+	}
+
+	.footer > h3
+	{
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+}
+
+/*------------------------------Size (1000px to 1400px)--------------------------------------*/
+
+@media screen and (min-width: 1000px)
+{
+
+	.header
+	{
+		height: 6vw;
+	}
+
+	.logo
+	{
+		width: 30%;
+	}
+
+	.header-nav
+	{
+		width: 40%;
+		top: 25%;
+		right: 5%;
+	}
+
+	.large-nav
+	{
+		display: block;
+	}
+
+	.large-nav > ul
+	{
+		list-style-type: none;
+	}
+
+	.large-nav > ul > li
+	{
+		display: inline-block;
+	}
+
+	.large-nav > ul > li > a
+	{
+		font-size: 25px;
+		position: relative;
+		top: 7px;
+		padding: 0px 10px 0px 10px;
+	
+	}	
+
+	.large-nav > ul > li > a:hover
+	{
+		color: #282828;
+	
+	}
+
+	.small-nav
+	{
+		display: none;
+	}
+
+	.slide > img
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	.slide 
+	{
+	    display: none;
+	}
+
+	.hero-body
+	{
+		position: absolute;
+		width: 100%;
+		top: 30vw;
+		text-align: center;
+	}
+
+	.hero-body > h3
+	{
+		font-size: 40px;
+		font-weight: 500;
+	}
+
+	.hero-button
+	{
+		max-width: 300px;
+		min-width: 150px;
+		margin: 35px auto;
+	}
+
+	.hero-button > h3
+	{
+		font-size: 30px;
+	}
+}
+
+/*------------------------------Largest (4k or higer)--------------------------------------*/
+
+@media screen and (min-width: 1400px)
+{
+	.header
+	{
+		height: 5vw;
+	}
+
+	.logo
+	{
+		width: 25%;
+	}
+
+	.header-nav
+	{
+		width: 40%;
+		top: 25%;
+		right: 5%;
+	}
+
+	.large-nav > ul > li > a
+	{
+		font-size: 27px;
+		position: relative;
+		top: 7px;
+		padding: 0px 10px 0px 10px;
+	
+	}	
+	.hero-body > h3
+	{
+		font-size: 45px;
+		font-weight: 500;
+	}
+
+	.hero-button
+	{
+		max-width: 300px;
+		min-width: 150px;
+		margin: 35px auto;
+	}
+
+	.slide
+	{
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+
+	}
+
+	.hero-body
+	{
+		top: 25vw;
+	}
+
+
+	.slide > img
+	{
+		width: 100%;
+	}
+
+	.hero-button > h3
+	{
+		font-size: 35px;
+	}
+}
+
+
+

@@ -6,6 +6,7 @@
 	<script src="js/js_index.js"></script>
 	<script src="js/js_common.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style_common.css">
+	<link rel="stylesheet" type="text/css" href="css/style_index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>WanderingLeaf-Home</title>
 </head>

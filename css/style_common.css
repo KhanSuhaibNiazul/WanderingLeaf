@@ -85,6 +85,11 @@ a
 	height: auto;
 }
 
+.active-header-nav
+{
+	color: #282828;
+}
+
 .footer
 {
 	background-color: #A07441;

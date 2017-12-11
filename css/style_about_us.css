@@ -1,0 +1,80 @@
+.body-content
+{
+	width: 100%;
+	padding: 20px;
+	background-color: #fcfdff;
+}
+
+.body-content > h3
+{
+	color: black;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.body-content > p
+{
+	color: black;
+}
+
+
+
+/*------------------------------Size (400px to 599px)--------------------------------------*/
+
+@media screen and (min-width: 400px)
+{
+	
+	
+}
+
+
+/*------------------------------Size (600px to 699px)--------------------------------------*/
+
+@media screen and (min-width: 600px)
+{
+	
+}
+
+/*------------------------------Size (700px to 999px)--------------------------------------*/
+
+@media screen and (min-width: 700px)
+{
+	
+
+}
+
+/*------------------------------Size (1000px to 1400px)--------------------------------------*/
+
+@media screen and (min-width: 1000px)
+{
+	.body-content
+	{
+		width: 90%;
+		margin: 20px auto;
+		padding: 20px;
+		background-color: #fcfdff;
+		box-shadow: 3px 3px 5px #888888
+	}
+
+	.body-content > h3
+	{
+		color: black;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	.body-content > p
+	{
+		color: black;
+	}
+}
+
+/*------------------------------Largest (4k or higer)--------------------------------------*/
+
+@media screen and (min-width: 1400px)
+{
+	
+}
+
+
+

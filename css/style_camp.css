@@ -1,0 +1,51 @@
+.camp-nav
+{
+	width: 100%;
+	text-align: center;
+}
+
+.camp-nav > ul
+{
+	list-style-type: none;
+	margin: 10px auto;
+	width: 80%;
+	border-bottom: 1px solid black;
+}
+
+.camp-nav > ul > li
+{
+	color: black;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+.camp-content
+{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.about-camp > p
+{
+	color: black;
+	font-size: 16px;
+}
+
+.about-camp > img
+{
+	width: 100%;
+	height: auto;
+}
+
+.active
+{
+	font-weight: bold;
+}
+
+.gallery-camp > img
+{
+	width: 100%;
+	margin-bottom: 10px;
+	height: auto;
+
+}

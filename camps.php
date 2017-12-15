@@ -3,14 +3,14 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-	<script src="js/js_index.js"></script>
 	<script src="js/js_common.js"></script>
+	<script src="js/js_camps.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style_common.css">
-	<link rel="stylesheet" type="text/css" href="css/style_index.css">
+	<link rel="stylesheet" type="text/css" href="css/style_camps.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>WanderingLeaf-Home</title>
 </head>
-<body onload="moveToSlide(0)">
+<body>
 	<div class="unpadded-container">
 		<div class="header">
 			<div class="logo">
@@ -19,47 +19,36 @@
 			<div class="header-nav">
 				<div class="large-nav">
 					<ul>
-						<li><a class="active-header-nav" href="index.php">Home</a></li>
-						<li><a href="camps.php">Camps</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a class="active-header-nav" href="camps.php">Camps</a></li>
 						<li><a href="about_us.php">About Us</a></li>
 					</ul>
 				</div>
 				<div class="small-nav">
 					<a onclick="toggleNavBar()"><img src="res/menu.png"></a>
 					<ul>
-						<li><a class="active-header-nav" href="index.php">Home</a></li>
-						<li><a href="camps.php">Camps</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a class="active-header-nav" href="camps.php">Camps</a></li>
 						<li><a href="about_us.php">About Us</a></li>
 					</ul>
 				</div>
 				
 			</div>
 		</div>
-		<div class="hero">
-			<div class="hero-body">
-				<h3>Take the Journey</h3>
-				<a href="#">
-					<div class="hero-button">
-						<h3>Camps</h3>
-					</div>
-				</a>
+		<div class="camps">
+			<div class="camp-nav">
+				<ul>
+					<li><button id="international" class="filters">International</button></li>
+					<li><button id="oneday" class="filters">One Day Trail</button></li>
+					<li><button id="national" class="filters">National</button></li>
+					<li><button id="birding" class="filters">Birding</button></li>
+					<li><button id="corporate" class="filters">Corporate</button></li>
+					<li><button id="customized" class="filters">Customized</button></li>
+				</ul>
 			</div>
-			<div class="slider">
-				<div class="slide fade">
-					<img src="res/slide_1.jpg">
-				</div>
-				<div class="slide fade">
-					<img src="res/slide_2.jpg">
-				</div>
-				<div class="slide fade">
-					<img src="res/slide_3.jpg">
-				</div>
-				<div class="slide fade">
-					<img src="res/slide_4.jpg">
-				</div>
-
+			<div class="camp-list">
+				
 			</div>
-			
 		</div>
 		<div class="footer">
 			<h3>Contact Us: 1111111111</h3>

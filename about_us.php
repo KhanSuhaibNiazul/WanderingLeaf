@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 	<script src="js/js_common.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style_common.css">
 	<link rel="stylesheet" type="text/css" href="css/style_about_us.css">
@@ -19,7 +19,7 @@
 				<div class="large-nav">
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="#">Camps</a></li>
+						<li><a href="camps.php">Camps</a></li>
 						<li><a class="active-header-nav" href="about_us.php">About Us</a></li>
 					</ul>
 				</div>
@@ -27,7 +27,7 @@
 					<a onclick="toggleNavBar()"><img src="res/menu.png"></a>
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="#">Camps</a></li>
+						<li><a href="camps.php">Camps</a></li>
 						<li><a class="active-header-nav" href="about_us.php">About Us</a></li>
 					</ul>
 				</div>
